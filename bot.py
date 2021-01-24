@@ -41,8 +41,8 @@ def hotstar(update,context):
                     [
                         [
                             InlineKeyboardButton(
-                                text="Join Us",
-                                url = "t.me/heavenbots"
+                                text="Contact Owner",
+                                url = "t.me/aniruddhsinghal5"
                             )
                         ]
                     ]
@@ -53,8 +53,8 @@ def hotstar(update,context):
                 update.message.reply_text(f"<b>Invalid❌</b>\n\n{update.message.text}\n\nLogin Unsuccessful\n\n<b>Checked By </b><code>Hotstar Checker Bot</code>",reply_markup=InlineKeyboardMarkup(
                 [[
                     InlineKeyboardButton(
-                        text="Join Us",
-                        url="t.me/heavenbots"
+                        text="Contact Owner",
+                                url = "t.me/aniruddhsinghal5"
                     )
 
                 ]]
