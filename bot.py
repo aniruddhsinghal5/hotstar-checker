@@ -37,7 +37,7 @@ def hotstar(update,context):
             r = requests.post(url, data=json.dumps(payload), headers=headers)
             if (r.status_code==200):
                 update.message.reply_text(
-                    f"<b>Valid✅\n\n{update.message.text}</b>\n\nLogin Successful😊\n\n<b>Checked By </b><code>HOTSTAR CHECKER BOT</code>",reply_markup=InlineKeyboardMarkup(
+                    f"<b>Valid✅\n\n{update.message.text}</b>\n\nLogged in Successfully😊\n\n<b>Checked By </b><code>HOTSTAR CHECKER BOT</code>",reply_markup=InlineKeyboardMarkup(
                     [
                         [
                             InlineKeyboardButton(
@@ -65,11 +65,11 @@ def hotstar(update,context):
 
 def help(update, context):
     update.message.reply_text(
-        f"Hey {update.message.from_user.full_name}\n\n ITS ME HOTSTAR CHECKER BOT \n\n\nTo Use Me Send Me Message Like This \n\nExample@example.com:example password\n\n\nTHIS Bot Is Made By @Heavenbots")
+        f"Hey {update.message.from_user.full_name}\n\n I'M A HOTSTAR CHECKER BOT \n\n\nTo Use Me Send Me Message Like This \n\nExample@example.com:example password\n\n\nTHIS Bot Is Made By @aniruddhsinghal5")
 
 
 def start(update,context):
-        update.message.reply_text(f"<i>Hey </i><a href='tg://user?id={update.message.chat_id}'>{update.message.from_user.first_name}</a>\n\n<i><b>I Am hotstar Checker</b> \n\nTo Know How to Use Me Type </i>/help \n\n<code>Made By Heaven Bots</code>",parse_mode="HTML")
+        update.message.reply_text(f"<i>Hey </i><a href='tg://user?id={update.message.chat_id}'>{update.message.from_user.first_name}</a>\n\n<i><b>I Am a Hotstar Checker Bot</b> \n\nTo Know How to Use Me Type </i>/help \n\n<code>Made By Aniruddh</code>",parse_mode="HTML")
 
 
 
